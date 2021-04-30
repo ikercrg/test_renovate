@@ -1,0 +1,71 @@
+{
+  "gradle-lite": {
+    "enabled": true
+  },
+  "gradle": {
+    "enabled": false
+  },
+  "docker-compose": {
+    "enabled": false
+  },
+  "dockerfile": {
+    "enabled": false
+  },
+  "gitlabci": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "groupName": "angular-eslint",
+      "matchPackagePrefixes": [
+        "@angular-eslint/"
+      ]
+    },
+    {
+      "groupName": "typescript-eslint",
+      "matchPackagePrefixes": [
+        "@typescript-eslint/"
+      ]
+    },
+    {
+      "groupName": "angular",
+      "matchPackagePrefixes": [
+        "@angular/"
+      ],
+      "excludePackageNames": [
+        "@angular/cli"
+      ]
+    },
+    {
+      "groupName": "ngrx",
+      "matchPackagePrefixes": [
+        "@ngrx/"
+      ]
+    },
+    {
+      "groupName": "ag-grid",
+      "matchPackagePrefixes": [
+        "ag-grid-"
+      ]
+    },
+    {
+      "groupName": "spring-boot",
+      "matchPackagePrefixes": [
+        "org.springframework.boot:"
+      ]
+    },
+    {
+      "groupName": "mapstruct",
+      "matchPackagePrefixes": [
+        "org.mapstruct:"
+      ]
+    },
+    {
+      "groupName": "springfox",
+      "matchPackagePrefixes": [
+        "io.springfox:"
+      ]
+    }
+  ],
+  "prConcurrentLimit": 1
+}
