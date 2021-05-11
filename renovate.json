@@ -66,6 +66,5 @@
         "io.springfox:"
       ]
     }
-  ],
-  "prConcurrentLimit": 1
+  ]
 }
