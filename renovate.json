@@ -1,4 +1,7 @@
 {
+  "extends": [
+    ":disableRateLimiting"
+  ],
   "gradle-lite": {
     "enabled": true
   },
