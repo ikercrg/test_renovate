@@ -1,6 +1,7 @@
 {
   "extends": [
-    ":disableRateLimiting"
+    ":disableRateLimiting",
+    ":dependencyDashboard"
   ],
   "gradle-lite": {
     "enabled": true
