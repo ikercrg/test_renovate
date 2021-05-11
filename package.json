@@ -39,6 +39,6 @@
   },
   "devDependencies": {
     "@angular/cli": "10.2.3",
-    "@typescript-eslint/eslint-plugin": "4.18.0",
+    "@typescript-eslint/eslint-plugin": "4.18.0"
   }
 }
