@@ -37,7 +37,7 @@
   "dependencies": {
     "@angular/common": "10.2.5",
     "@angular/core": "10.2.5",
-    "rxjs": "6.6.7"
+    "rxjs": "7.0.1"
   },
   "devDependencies": {
     "@angular/cli": "10.2.3",
