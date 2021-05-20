@@ -87,7 +87,7 @@
     "https-proxy-agent": "2.2.4",
     "jest": "24.9.0",
     "jest-marbles": "2.5.1",
-    "jest-preset-angular": "7.1.1",
+    "jest-preset-angular": "8.4.0",
     "jspdf": "2.3.1",
     "ng-mocks": "11.9.1",
     "ngx-translate-testing": "5.1.0",
