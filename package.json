@@ -55,7 +55,7 @@
     "@ngx-translate/http-loader": "6.0.0",
     "ag-grid-angular": "24.1.0",
     "ag-grid-community": "24.1.0",
-    "bootstrap": "4.6.0",
+    "bootstrap": "5.0.1",
     "crypto-js": "4.0.0",
     "ngx-toastr": "13.2.1",
     "rxjs": "6.6.7",
