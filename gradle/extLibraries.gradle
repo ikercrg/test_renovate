@@ -57,7 +57,7 @@ ext.libraries = [
                 ooxml: 'org.apache.poi:poi-ooxml:5.0.0'
         ],
         apache_tika   : [
-                parsers: 'org.apache.tika:tika-parsers:1.25'
+                parsers: 'org.apache.tika:tika-parsers:1.26'
         ],
         easy_random           : [
                 core: 'org.jeasy:easy-random-core:5.0.0'
