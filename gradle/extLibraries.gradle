@@ -69,7 +69,7 @@ ext.libraries = [
                 api: 'javax.ws.rs:javax.ws.rs-api:2.1.1'
         ],
         keycloak      : [
-                admin_client: 'org.keycloak:keycloak-admin-client:11.0.3'
+                admin_client: 'org.keycloak:keycloak-admin-client:13.0.1'
         ],
         mapstruct     : [
                 core     : 'org.mapstruct:mapstruct:1.4.2.Final',
