@@ -1,0 +1,94 @@
+ext.libraries = [
+        platform      : [
+                spring_boot   : [
+                        _bom          : 'org.springframework.boot:spring-boot-dependencies:2.4.5',
+                        elasticsearch : [
+                                elasticsearch         : 'org.elasticsearch:elasticsearch',
+                                rest_high_level_client: 'org.elasticsearch.client:elasticsearch-rest-high-level-client',
+                                transport             : 'org.elasticsearch.client:transport'
+                        ],
+                        h2database    : [
+                                h2: 'com.h2database:h2'
+                        ],
+                        jackson_core  : [
+                                annotations: 'com.fasterxml.jackson.core:jackson-annotations'
+                        ],
+                        javax_xml_bind: [
+                                api: 'javax.xml.bind:jaxb-api'
+                        ],
+                        junit         : [
+                                jupiter_engine   : 'org.junit.jupiter:junit-jupiter-engine',
+                                platform_launcher: 'org.junit.platform:junit-platform-launcher'
+                        ],
+                        logback       : [
+                                classic: 'ch.qos.logback:logback-classic'
+                        ],
+                        spring        : [
+                                kafka               : 'org.springframework.kafka:spring-kafka',
+                                kafka_test          : 'org.springframework.kafka:spring-kafka-test',
+                                starter             : 'org.springframework.boot:spring-boot-starter',
+                                starter_aop         : 'org.springframework.boot:spring-boot-starter-aop',
+                                starter_data_mongodb: 'org.springframework.boot:spring-boot-starter-data-mongodb',
+                                starter_json        : 'org.springframework.boot:spring-boot-starter-json',
+                                starter_log4j2      : 'org.springframework.boot:spring-boot-starter-log4j2',
+                                starter_security    : 'org.springframework.boot:spring-boot-starter-security',
+                                starter_test        : 'org.springframework.boot:spring-boot-starter-test',
+                                starter_validation  : 'org.springframework.boot:spring-boot-starter-validation',
+                                starter_web         : 'org.springframework.boot:spring-boot-starter-web'
+                        ]
+                ],
+                jboss_resteasy: [
+                        _bom             : 'org.jboss.resteasy:resteasy-bom:3.15.1.Final',
+                        client           : 'org.jboss.resteasy:resteasy-client',
+                        jackson2_provider: 'org.jboss.resteasy:resteasy-jackson2-provider',
+                        jaxrs            : 'org.jboss.resteasy:resteasy-jaxrs'
+                ],
+                testcontainers: [
+                        _bom         : 'org.testcontainers:testcontainers-bom:1.15.3',
+                        junit_jupiter: 'org.testcontainers:junit-jupiter',
+                        mongodb      : 'org.testcontainers:mongodb'
+                ]
+        ],
+        apache_commons: [
+                collections: 'org.apache.commons:commons-collections4:4.4',
+                commons_io: 'commons-io:commons-io:2.9.0'
+        ],
+        apache_poi    : [
+                ooxml: 'org.apache.poi:poi-ooxml:5.0.0'
+        ],
+        apache_tika   : [
+                parsers: 'org.apache.tika:tika-parsers:1.25'
+        ],
+        easy_random           : [
+                core: 'org.jeasy:easy-random-core:5.0.0'
+        ],
+        glytching     : [
+                junit_extensions: 'io.github.glytching:junit-extensions:2.4.0'
+        ],
+        javax_ws_rs   : [
+                api: 'javax.ws.rs:javax.ws.rs-api:2.1.1'
+        ],
+        keycloak      : [
+                admin_client: 'org.keycloak:keycloak-admin-client:11.0.3'
+        ],
+        mapstruct     : [
+                core     : 'org.mapstruct:mapstruct:1.4.2.Final',
+                processor: 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+        ],
+        spring        : [
+                security_oauth2: 'org.springframework.security.oauth:spring-security-oauth2:2.5.1.RELEASE'
+        ],
+        springfox     : [
+                swagger2  : 'io.springfox:springfox-swagger2:2.9.2',
+                swagger_ui: 'io.springfox:springfox-swagger-ui:2.9.2'
+        ],
+        verapdf     : [
+                validation_model: 'org.verapdf:validation-model:1.18.8',
+        ],
+        jakarta     : [
+                xml_bind  : 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.2',
+        ],
+        glassfish     : [
+                glassfish_jaxb  : 'org.glassfish.jaxb:jaxb-runtime:2.3.2',
+        ]
+]
