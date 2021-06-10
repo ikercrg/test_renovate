@@ -48,47 +48,5 @@ ext.libraries = [
                         junit_jupiter: 'org.testcontainers:junit-jupiter',
                         mongodb      : 'org.testcontainers:mongodb'
                 ]
-        ],
-        apache_commons: [
-                collections: 'org.apache.commons:commons-collections4:4.4',
-                commons_io: 'commons-io:commons-io:2.9.0'
-        ],
-        apache_poi    : [
-                ooxml: 'org.apache.poi:poi-ooxml:5.0.0'
-        ],
-        apache_tika   : [
-                parsers: 'org.apache.tika:tika-parsers:1.25'
-        ],
-        easy_random           : [
-                core: 'org.jeasy:easy-random-core:5.0.0'
-        ],
-        glytching     : [
-                junit_extensions: 'io.github.glytching:junit-extensions:2.4.0'
-        ],
-        javax_ws_rs   : [
-                api: 'javax.ws.rs:javax.ws.rs-api:2.1.1'
-        ],
-        keycloak      : [
-                admin_client: 'org.keycloak:keycloak-admin-client:11.0.3'
-        ],
-        mapstruct     : [
-                core     : 'org.mapstruct:mapstruct:1.4.2.Final',
-                processor: 'org.mapstruct:mapstruct-processor:1.4.2.Final'
-        ],
-        spring        : [
-                security_oauth2: 'org.springframework.security.oauth:spring-security-oauth2:2.5.1.RELEASE'
-        ],
-        springfox     : [
-                swagger2  : 'io.springfox:springfox-swagger2:2.9.2',
-                swagger_ui: 'io.springfox:springfox-swagger-ui:2.9.2'
-        ],
-        verapdf     : [
-                validation_model: 'org.verapdf:validation-model:1.18.8',
-        ],
-        jakarta     : [
-                xml_bind  : 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.2',
-        ],
-        glassfish     : [
-                glassfish_jaxb  : 'org.glassfish.jaxb:jaxb-runtime:2.3.2',
         ]
 ]
