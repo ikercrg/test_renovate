@@ -86,7 +86,7 @@ ext.libraries = [
                 validation_model: 'org.verapdf:validation-model:1.18.8',
         ],
         jakarta     : [
-                xml_bind  : 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.2',
+                xml_bind  : 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.3',
         ],
         glassfish     : [
                 glassfish_jaxb  : 'org.glassfish.jaxb:jaxb-runtime:2.3.2',
