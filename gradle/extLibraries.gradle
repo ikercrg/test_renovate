@@ -38,7 +38,7 @@ ext.libraries = [
                         ]
                 ],
                 jboss_resteasy: [
-                        _bom             : 'org.jboss.resteasy:resteasy-bom:3.15.1.Final',
+                        _bom             : 'org.jboss.resteasy:resteasy-bom:3.15.3.Final',
                         client           : 'org.jboss.resteasy:resteasy-client',
                         jackson2_provider: 'org.jboss.resteasy:resteasy-jackson2-provider',
                         jaxrs            : 'org.jboss.resteasy:resteasy-jaxrs'
