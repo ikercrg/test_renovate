@@ -44,7 +44,7 @@ ext.libraries = [
                         jaxrs            : 'org.jboss.resteasy:resteasy-jaxrs'
                 ],
                 testcontainers: [
-                        _bom         : 'org.testcontainers:testcontainers-bom:1.15.3',
+                        _bom         : 'org.testcontainers:testcontainers-bom:1.19.7',
                         junit_jupiter: 'org.testcontainers:junit-jupiter',
                         mongodb      : 'org.testcontainers:mongodb'
                 ]
