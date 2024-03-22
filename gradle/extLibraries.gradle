@@ -1,7 +1,7 @@
 ext.libraries = [
         platform      : [
                 spring_boot   : [
-                        _bom          : 'org.springframework.boot:spring-boot-dependencies:2.4.5',
+                        _bom          : 'org.springframework.boot:spring-boot-dependencies:3.2.4',
                         elasticsearch : [
                                 elasticsearch         : 'org.elasticsearch:elasticsearch',
                                 rest_high_level_client: 'org.elasticsearch.client:elasticsearch-rest-high-level-client',
